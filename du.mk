@@ -38,7 +38,7 @@ $(call inherit-product, vendor/imi/config/common.mk)
 $(call inherit-product, device/oppo/find7/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := du_find7
+PRODUCT_NAME := du_find7s
 PRODUCT_DEVICE := find7
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := FIND7
