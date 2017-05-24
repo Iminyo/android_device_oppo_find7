@@ -9,7 +9,7 @@ $(call inherit-product, device/oppo/msm8974-common/common.mk)
 $(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
 
-LOCAL_PATH := device/oppo/find7
+LOCAL_PATH := device/oppo/find7s
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
