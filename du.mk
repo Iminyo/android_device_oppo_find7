@@ -35,10 +35,10 @@ TARGET_BOOTANIMATION_SIZE := 1080x608
 $(call inherit-product, vendor/imi/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/oppo/find7/device.mk)
+$(call inherit-product, device/oppo/find7s/find7s.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := imi_find7
+PRODUCT_NAME := du_find7
 PRODUCT_DEVICE := find7
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := FIND7
